@@ -1,0 +1,120 @@
+::selection {
+    color: white;
+    background-color: rosybrown;
+}
+
+/* setting font of the whole body text */
+body {
+    font-family: 'Encode Sans Expanded', sans-serif;
+    margin: 0;
+    background-color: #F2F2F2;
+}
+
+label {
+    background-color: rosybrown;
+    color: white;
+    padding: 7px;
+    margin: 5px;
+    text-transform: uppercase;
+}
+
+input {
+    border-radius: 10px;
+    padding: 7px;
+    font-size: 16px;
+    color: rosybrown;
+    border: 2px solid rosybrown;
+    outline: 0;
+}
+
+button {
+    font-size: 16px;
+    color: rosybrown;
+    background-color: white;
+    padding: 7px;
+    border-radius: 20px;
+    border: 2px solid rosybrown;
+    margin: 0 5px;
+    cursor: pointer;
+    outline: 0;
+}
+
+button:hover {
+    background-color: rosybrown;
+    color: white;
+}
+
+/* styling top heading */
+.heading {
+    font-size: 55px;
+    color: rosybrown;
+    font-family: 'Amatic SC', cursive;
+    text-align: center;
+}
+
+/* styling top-living-statement */
+.top-living-statement {
+    font-size: 34px;
+    color: rosybrown;
+    text-align: center;
+}
+
+/* styling sub-heading */
+.sub-heading {
+    font-size: 30px;
+    color: rosybrown;
+    text-align: center;
+    display: none;
+}
+
+/* using media queries to properly scale heading's font size */
+@media only screen and (max-width: 700px) {
+    .heading {
+        font-size: 50px;
+    }
+}
+
+.centering-input {
+    text-align: center;
+}
+
+#location-img {
+    width: 100%;
+    height: auto;
+    display: block;
+    text-align: center;
+}
+
+div a, .article-links {
+    font-size: 20px;
+    color: rosybrown;
+    text-align: center;
+    text-decoration: none;
+    line-height: 30px;
+    padding: 14px 20px;
+}
+
+#ny-times-container, #wikipedia-container {
+    font-size: 20px;
+    color: rosybrown;
+    text-align: center;
+    text-decoration: none;
+    line-height: 30px;
+    padding: 14px 20px;
+}
+
+/* styling footer texts */
+.footer-personal {
+    text-align: center;
+    font-size: 16px;
+    color: rosybrown;
+}
+.footer-code-license {
+    text-align: center;
+    font-size: 14px;
+    color: rosybrown;
+}
+a {
+    color: black;
+    text-decoration: none;
+}

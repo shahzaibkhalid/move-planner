@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Move Planner | Instantly Find Your Next Destination</title>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="Move Planner | Instantly Find Your Next Destination" content="Find your next destination pictures, New York Times and Wikipedia articles, all using HTML, CSS &amp; JavaScript.">
+        <link rel="stylesheet" href="./style.css">
+        <link href="https://fonts.googleapis.com/css?family=Amatic+SC" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Encode+Sans+Expanded" rel="stylesheet">
+        <meta property="og:title" content="Move Planner | Instantly Find Your Next Destination">
+        <meta property="og:description" content="Find your next destination pictures, New York Times and Wikipedia articles, all using HTML, CSS &amp; JavaScript.">
+        <meta property="og:url" content="https://shahzaibkhalid.github.io">
+        <meta property="og:type" content="website">
+        <meta property="og:image" content="./images/social-sharing-card.png">
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:site" content="@shahzaibkhalid">
+        <meta name="twitter:creator" content="@shahzaibkhalid" />
+        <meta name="twitter:title" content="Move Planner | Instantly Find Your Next Destination">
+        <meta name="twitter:description" content="Find your next destination pictures, New York Times and Wikipedia articles, all using HTML, CSS &amp; JavaScript.">
+        <meta name="twitter:image" content="./images/social-sharing-card.png">
+        <meta name="twitter:url" content="https://shahzaibkhalid.github.io">       
+    </head>
+    <body>
+        <h1 class="heading">Move Planner</h1>
+        <div class="centering-input">
+            <label for="address">Address</label>
+            <input type="text" id="address">
+            <button onclick="update()">Find Place</button>
+        </div>
+        <h2 class="top-living-statement"></h2>
+        <h3 class="sub-heading">Here's how it looks like</h3>
+        <img id="location-img">
+        <h3 class="sub-heading">Some related Wikipedia articles</h3>
+        <div id="wikipedia-container"></div>
+        <h3 class="sub-heading">Some related New York Times articles</h3>
+        <div id="ny-times-container"></div>
+        <footer>
+            <p class="footer-personal">Designed &amp; coded by <a href="https://shahzaibkhalid.github.io" target="_blank">Shahzaib Khalid</a></p>
+            <p class="footer-code-license">Move Planner is licensed under the MIT License.</p>
+        </footer>
+        
+        <script src="./script.js"></script>
+    </body>
+</html>
