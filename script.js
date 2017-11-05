@@ -1,3 +1,18 @@
+/**
+ * This function is executed every time we need to fetch data 
+ * from Wikipedia and New York Times API.
+ * 
+ * First of all it reads the query string in input field and 
+ * also image on the body, later it utilizes the function 
+ * "getWikiData()" that sends an XMLHttpRequest to the
+ * specified URL and returns an ES6 native promise which 
+ * later is resolved using then/catch block.
+ * 
+ * Similarly, there's another function "getNYTData()" to 
+ * fetch data from New York Times REST API, based on specific 
+ * query and returns an ES6 based native promise, which 
+ * resolved, shows the links to New York Times articles. 
+ */
 function update() {
     let addressQuery = document.getElementById('address').value;
     const img = document.getElementById('location-img');
@@ -53,6 +68,19 @@ function update() {
     }
 }
 
+/**
+ * 
+ * @param {string} query - query, as name says is a string that's 
+ * read from input field. 
+ * @param {string} method - method is string specified to HTTP 
+ * method, like 'GET', 'POST' etc.
+ * 
+ * This function utilizes the native "XMLHttpRequest()" function 
+ * to read data from Wikipedia REST API and then responds to ES6 
+ * promise's "resolve()" or "reject()" method. I also used HEROKU 
+ * CORS server as Wikipedia REST API doesn't allow to fetch data 
+ * from other domain names due to security reasons.
+ */
 function getWikiData(query, method) {
 return new Promise(function(resolve, reject){
     let xhr = new XMLHttpRequest();
@@ -70,6 +98,22 @@ return new Promise(function(resolve, reject){
 });
 } 
 
+
+/**
+ * 
+ * @param {string} query - query, as name says is a string that's 
+ * read from input field. 
+ * @param {string} method - method is string specified to HTTP 
+ * method, like 'GET', 'POST' etc.
+ * 
+ * This function also takes a query parameter and an HTTP method and
+ * then returns an ES6 based native promise that resolve the response 
+ * if the request is successful and response is arrived and also handle
+ * the situation in which request is not successful.
+ * 
+ * Note that I didn't use CORS server in this case because New York Times
+ * API does not requires the request to be from same origin. 
+ */
 function getNYTData(query, method) {
     return new Promise(function(resolve, reject){
         let xhr = new XMLHttpRequest();
