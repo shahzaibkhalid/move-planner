@@ -1,7 +1,7 @@
 <h1 align="center">Move Planner</h1>
-<h3 align="center">Drum Playing, Redefined!</h3>
+<h3 align="center">Instantly Find Your Next Destination</h3>
 
-<p align="center">Insanely simple to use, yet powerful tool to decide place for your next travel.</p>
+<p align="center">Insanely simple to use, yet powerful tool to find and decide your next destination stop.</p>
 
 ## Detail
 Move Planner provides an engaging and immersive way to search a destination for your next trip or your permanent next residence. Just search for a destination and you'll get the photo of that location, Wikipedia articles to know your next destination well and also New York Times article about your next stop, all at just one one click.
