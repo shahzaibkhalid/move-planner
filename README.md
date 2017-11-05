@@ -6,6 +6,8 @@
 ## Detail
 Move Planner provides an engaging and immersive way to search a destination for your next trip or your permanent next residence. Just search for a destination and you'll get the photo of that location, Wikipedia articles to know your next destination well and also New York Times article about your next stop, all at just one one click.
 
+Note that I'm using free plan of Google Map Image API that's the reason behind quality of image not being HD.
+
 ## Demo
 This is how it looks like:
 ![move planner](./images/move-planner-1.png)
