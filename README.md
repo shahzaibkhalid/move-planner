@@ -17,7 +17,7 @@ This is how it looks like:
 ## Usage
 You can use Move Planner by clicking [here](https://shahzaibkhalid.github.io/move-planner/)
 
-# License
+## License
 Move Planner is licensed under the [MIT License](https://github.com/shahzaibkhalid/move-planner/blob/master/LICENSE.txt).
 
 Copyright (c) 2017 Shahzaib Khalid
